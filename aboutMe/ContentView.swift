@@ -92,11 +92,11 @@ struct ContentView: View {
                                         .fill(Color("light_brown"))
                                         .cornerRadius(10)
                                         .frame(height:30)
-                                    Text("Cartoons I binge")
+                                    Text("Shows I binge")
                                         .foregroundColor(Color.white)
                                 }
                                 
-                                Text("Rick and Morty, Teen titans go, the good place, and Brooklyn 99")
+                                Text("Rick and Morty, Teen titans go, the good place, inside job and B99")
                                     .multilineTextAlignment(.center)
                                 Spacer()
                                 ZStack{
@@ -120,7 +120,7 @@ struct ContentView: View {
                                         .foregroundColor(Color.white)
                                 }
                                 
-                                Text("Piano, violin, trumpet, guitar, and flute")
+                                Text("Piano, violin, trumpet, guitar, drums and flute")
                                     .multilineTextAlignment(.center)
                                 Spacer()
                             }
